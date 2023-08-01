@@ -14,7 +14,7 @@ func Test_GetDrones(t *testing.T) {
 	} {
 		{
 			name: "Test get end point status code",
-			wantStatus: http.StatusOK,
+			wantStatus: http.StatusAccepted,
 		},
     }
 
